@@ -1,3 +1,25 @@
+# Querying a Subgraph from Web Application
+
+Install urql and graphql
+
+### npm i urql
+
+Create a new project and install GraphQL.js
+
+### npm init
+### npm install graphql --save
+
+Import createClient from urql
+Use # subgraph API url
+Add the query to use, you can create queries on the playground of the subgraph you have created
+
+![image](https://user-images.githubusercontent.com/103324627/219313376-0b9b5ee3-4bd7-451f-929e-e9c38b550175.png)
+
+Refer : https://thegraph.com/studio/
+
+Bind the response of the query using useEffect and useState from react lib
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
